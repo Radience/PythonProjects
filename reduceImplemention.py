@@ -5,4 +5,4 @@ def reduce(func, seq):
     return value
 
 seq = [1,2,3]
-print("sum seq is:", reduce(lambda x,y: x + y, seq))
+print("sum seq is:", reduce(lambda x,y: x / y, seq))
