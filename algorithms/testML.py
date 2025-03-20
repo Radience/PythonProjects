@@ -1,7 +1,6 @@
 import numpy as np
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import pandas as pd
-import mglearn
 import seaborn as sns
 
 from sklearn.datasets import load_breast_cancer
@@ -16,10 +15,8 @@ from sklearn.metrics import accuracy_score
 
 plt.rc('font', family='Verdana')
 
-# %%
 iris = load_iris()
 
 data = pd.DataFrame(iris.data, columns=iris.feature_names)
 
-# %%
-
+print(data.head())
